@@ -4,5 +4,30 @@ body {
   font-family: cursive, sans-serif;
   text-align: center;
 
+}
+h1 {
+  font-size: 32px;
+  margin-bottom: 0;
+}
 
+h1, h1+p {
+  background-color: #EA7A94;
+
+}
+
+h4 {
+  color: purple;
+  font-size: 250%;
+}
+
+p {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+.circle {
+  border-radius: 100%;
+  color:   #EA7A94;
+  position: relative;
 }
