@@ -47,11 +47,12 @@
 
 for (var i = 0; i < 4; i++) {
   var questionSix = 'I have moved quite a bit during my life. Can you guess how many homes I\'ve had?';
-  if (answer == 17) {
+  var answer = prompt(questionSix);
+  if (answer == 28) {
     alert ('Spot on! Great Job!');
-  } else if (answer < 17) {
+  } else if (answer < 28) {
     alert ('Too Low, try again.');
-  } else if (answer > 17) {
+  } else if (answer > 28) {
     alert ('Too high, try again.');
   }
 }
