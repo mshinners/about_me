@@ -45,12 +45,13 @@
 // }
 // console.log('Question 5:' + questionFive + '| Answer:' + coaster);
 
-var questionSix = 'I\'m thinking of a number between 1 and 20. Can you guess it?';
-var answer = prompt(questionSix);
-if (answer == 17) {
-  alert ('Spot on! Great Job!');
-} else if (answer < 17) {
-  alert ('Too Low, try again.');
-} else if (answer > 17) {
-  alert ('Too high, try again.');
+for (var i = 0; i < 4; i++) {
+  var questionSix = 'I have moved quite a bit during my life. Can you guess how many homes I\'ve had?';
+  if (answer == 17) {
+    alert ('Spot on! Great Job!');
+  } else if (answer < 17) {
+    alert ('Too Low, try again.');
+  } else if (answer > 17) {
+    alert ('Too high, try again.');
+  }
 }
