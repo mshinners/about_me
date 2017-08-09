@@ -24,10 +24,13 @@ p {
   margin-top: 0;
   font-size: 18px;
   font-weight: bold;
-  
+
 }
 .circle {
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
   color:   #EA7A94;
   position: relative;
+
 }
