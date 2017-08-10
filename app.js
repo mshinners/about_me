@@ -45,14 +45,29 @@
 // }
 // console.log('Question 5:' + questionFive + '| Answer:' + coaster);
 
-for (var i = 0; i < 4; i++) {
-  var questionSix = 'I have moved quite a bit during my life. Can you guess how many homes I\'ve had?';
-  var answer = prompt(questionSix);
-  if (answer == 28) {
-    alert ('Spot on! Great Job!');
-  } else if (answer < 28) {
-    alert ('Too Low, try again.');
-  } else if (answer > 28) {
-    alert ('Too high, try again.');
+// for (var i = 0; i < 4; i++) {
+//   var questionSix = 'I have moved quite a bit during my life. Can you guess how many homes I\'ve had?';
+//   var answer = prompt(questionSix);
+//   if (answer == 28) {
+//     alert ('Spot on! Great Job!');
+//     break;
+//   } else if (answer < 28) {
+//     alert ('Too Low, try again.');
+//   } else if (answer > 28) {
+//     alert ('Too high, try again.');
+//   }
+// }
+// console.log('Question 6:' + questionSix + '| Answer:' + answer);
+//
+for (var i = 0; i < 6; i++) {
+  var questionSeven = 'I have lived in some states other than Washington for a time. Can you name just one of them?';
+  var answer = prompt(questionSeven);
+  var states = ['delaware', 'florida', 'nevada', 'georgia'];
+  if (states.includes(answer.toLowerCase())) {
+    alert ('Yes! Have you been stalking me???');
+    break;
+  } else {
+    alert ('Nope, guess again.');
   }
 }
+console.log('Question 7:' + questionSeven + '| Answer:' + answer);
