@@ -1,4 +1,7 @@
 /*box-sizing: border-box;*/
+* {
+  border: thin solid red;
+}
 
 body {
   color: rgb(54, 80, 164);
