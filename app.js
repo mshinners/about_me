@@ -73,7 +73,7 @@ fifthQuestion();
 
 function sixthQuestion() {
   for (var i = 0; i < 4; i++) {
-    var questionSix = 'I have moved quite a bit during my life. Can you,  ' + userName + ',  guess how many homes I\'ve had?';
+    var questionSix = 'I have moved quite a bit during my life. Can you, ' + userName + ', guess how many homes I\'ve had?';
     var answer = prompt(questionSix);
     if (answer == 28) {
       alert ('Spot on! Great Job!');
