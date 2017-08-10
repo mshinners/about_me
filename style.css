@@ -1,18 +1,35 @@
+/*box-sizing: border-box;*/
+* {
+  border: thin solid red;
+}
+
 body {
   color: rgb(54, 80, 164);
   background-color: beige;
   font-family: cursive, sans-serif;
-  text-align: center;
+
 
 }
 h1 {
   font-size: 32px;
   margin-bottom: 0;
+  text-align: center;
 }
 
-h1, h1+p {
-  background-color: #EA7A94;
+.nav {
+  border: 2px, solid, blue;
+  display: flex;
+  text-align: justify;
+      justify-content: space-between;
+}
 
+.links {
+  text-align: center;
+}
+
+h1>a {
+  background-color: #EA7A94;
+  text-align: center;
 }
 
 h4 {
@@ -26,12 +43,7 @@ p {
   font-weight: bold;
 
 }
-
-/*failed attempt at a circle. leaving in here to try again later.
-.circle {
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-  color:   #EA7A94;
-  position: relative;
-}*/
+aside {
+  border: 2px, solid, purple;
+  float: right;
+}
