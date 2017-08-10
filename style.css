@@ -13,9 +13,11 @@ h1 {
   text-align: center;
 }
 
-nav ul li {
+.nav {
   border: 2px, solid, blue;
-  display: inline-block;
+  display: flex;
+  text-align: justify;
+      justify-content: space-between;
 }
 
 .links {
