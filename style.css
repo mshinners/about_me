@@ -8,19 +8,27 @@ body {
   background-color: beige;
   font-family: cursive, sans-serif;
 
-
 }
+
 h1 {
   font-size: 32px;
   margin-bottom: 0;
   text-align: center;
 }
 
-.nav {
+.navBar {
   border: 2px, solid, blue;
   display: flex;
   text-align: justify;
       justify-content: space-between;
+
+}
+
+li  {
+        float: left;
+        margin: 0;
+        padding 20%;
+        list-style-type: none;
 }
 
 .links {

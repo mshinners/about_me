@@ -18,7 +18,6 @@ function firstQuestion() {
 }
 firstQuestion();
 
-
 function secondQuestion() {
   var questionTwo = 'Next question ' + userName + ', have I ever walked out of a movie because it was so bad?';
   var movie = prompt(questionTwo).toLowerCase();
@@ -28,7 +27,7 @@ function secondQuestion() {
   } else {
     alert('Wrong Answer! I actually walked out of "Space Balls" the first time I saw it.');
   }
-console.log('Question 2:' + questionTwo + '| Answer:' + movie);
+  console.log('Question 2:' + questionTwo + '| Answer:' + movie);
 }
 secondQuestion();
 
