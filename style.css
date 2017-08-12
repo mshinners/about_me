@@ -1,3 +1,6 @@
+* { box-sizing: border-box;
+}
+
 body{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+17,52b152+33,008a00+67,005700+83,002400+100 */
   background: rgb(180,221,180); /* Old browsers */
@@ -15,15 +18,14 @@ font-style: oblique;
 font-weight: 500;
 color: darkblue;
 text-align: center;
-margin-bottom: 10px;
+margin-bottom: 20px;
 }
 
 .links  {
   text-align: center;
 }
-
-.navBar  {
-
+img{
+  width: 100%;
 }
 
 li  {
@@ -32,7 +34,7 @@ li  {
 #navBar {
   list-style-type: none;
   float: left;
-  width: 13%;
+  width: 16%;
   padding: 10px;
   text-align: center;
   font-size: 20px
@@ -76,9 +78,9 @@ aside {
   float: right;
   width: 25%;
   margin-right: 0;
-  margin-left: 0;
 background-color: rgb(46, 103, 124);
 }
 ol  {
   margin-left: 0px;
+  font-size: 28px;
 }
