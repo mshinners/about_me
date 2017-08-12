@@ -44,27 +44,41 @@ li  {
 
 #story1 {
   border: 2px solid darkblue;
-  width: 30%;
+  width: 34%;
   padding: 5px;
   margin: 5px;
+  float: left;
+  background-color:rgb(190, 224, 191);
 }
 
 #story2 {
   border: 2px solid darkblue;
-  width: 30%;
+  width: 34%;
   padding: 5px;
   margin: 5px;
+  float: left;
+  background-color: rgb(190, 224, 191);
+}
+
+#top10  {
+  padding-bottom: 10px;
+
 }
 
 aside {
-  color: darkblue;
-  font-size: 20px;
+  color: rgb(190, 224, 191);
+  font-size: 16px;
   text-align: center;
   margin: 5px;
   padding: 5px;
+  margin-left: 2px;
+  padding-left: 2px;
   float: right;
   width: 25%;
-
+  margin-right: 0;
+  margin-left: 0;
+background-color: rgb(46, 103, 124);
 }
-
-7984721 1
+ol  {
+  margin-left: 0px;
+}
