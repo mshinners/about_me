@@ -1,57 +1,7 @@
-/*box-sizing: border-box;*/
-* {
-  border: thin solid red;
-}
 
-body {
-  color: rgb(54, 80, 164);
-  background-color: beige;
-  font-family: cursive, sans-serif;
 
-}
-
-h1 {
-  font-size: 32px;
-  margin-bottom: 0;
-  text-align: center;
-}
-
-.navBar {
-  border: 2px, solid, blue;
-  display: flex;
-  text-align: justify;
-      justify-content: space-between;
-
-}
-
-li  {
-        float: left;
-        margin: 0;
-        padding 20%;
-        list-style-type: none;
-}
-
-.links {
-  text-align: center;
-}
-
-h1>a {
-  background-color: #EA7A94;
-  text-align: center;
-}
-
-h4 {
-  color: purple;
-  font-size: 250%;
-}
-
-p {
-  margin-top: 0;
-  font-size: 18px;
-  font-weight: bold;
-
-}
-aside {
-  border: 2px, solid, purple;
-  float: right;
-}
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
+background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
